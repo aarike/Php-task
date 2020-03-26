@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ari's Studio</title>
+</head>
+<body>
+	<h1>This is a Slow Fashion</h1>
+	<h4>Made to last</h4>
+	<form action="processform.php" method="POST">
+	<h3>Contact Me</h3>
+	<p>
+		<label for="first_name">First Name</label><br>
+   		<input type="text" name="first_name" placeholder="Enter Your First Name">
+	</p>
+	<p>
+		<label for="last_name">Last Name</label><br>
+   		<input type="text" name="last_name" placeholder="Enter Your Last Name">
+	</p>
+	<p>
+		<label for="email">Email</label><br>
+   		<input type="email" name="email" placeholder="Enter Your Email" required>
+	</p>
+	<p>
+		<label for="department">Department</label><br>
+   		<select name="department">
+   			<option>Select Department</option>
+   			<option>HR</option>
+   			<option>Marketing</option>
+   			<option>PR</option>
+   			<option>Kitchen</option>
+   		</select>
+	</p>
+	<p>
+		<label for="gender">Gender</label><br>
+   		<input type="radio" name="gender">
+   		<label for="female">Female</label>
+   		<input type="radio" name="gender">
+   		<label for="female">Male</label>
+	</p>
+	<p>
+		<label for="comment">Your Message</label><br>	
+   		<textarea rows="4" cols="15" placeholder="write your notes here..."></textarea><br>
+   	<p>
+		<input type="checkbox" name="terms" required> By checking this box you agree to our terms and conditions.
+	</p>	
+   		<button type="submit">Send Message</button>
+	</p>	
+   	</form>
+</body>
+</html>
